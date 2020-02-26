@@ -37,7 +37,7 @@
             <nav>
                 <div class="row">
                     <div class="col-12">
-                        <span class="float-left ml-2">Selamat datang</span>
+                        <span class="float-left ml-2">Selamat Datang</span>
                         <span class="float-right">halo, Ari</span>
                     </div>
                 </div>
@@ -58,8 +58,9 @@
             </div>
         </footer>
 
-        <script src="{{ asset('/js/popper.min.js') }}"></script>
         <script src="{{ asset('/js/jquery.min.js') }}"></script>
+        <script src="{{ asset('/js/popper.min.js') }}"></script>
+        <script src="{{ asset('/js/bootstrap.min.js') }}"></script>
     </body>
 
     </html>

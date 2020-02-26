@@ -12,5 +12,9 @@
 */
 
 Route::get('/', function () {
-    return view('AuthH.login');
+    return view('authH.login');
 });
+
+Route::resource('mahasiswa', 'adminTu\mahasiswaController');
+Route::resource('dosen', 'adminTu\dosenController');
+Route::resource('fasilitas-matakuliah', 'adminTu\FasilitasMatakuliahController');

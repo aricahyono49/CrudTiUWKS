@@ -5,9 +5,9 @@ use App\Http\Controllers\Controller;
 
 use Illuminate\Http\Request;
 
-class AuthH extends Controller
+class AuthHController extends Controller
 {
     function login(){
-        return view(AuthH.login);
+        return view("AuthH.login");
     }
 }
